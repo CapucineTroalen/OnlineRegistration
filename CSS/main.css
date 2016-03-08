@@ -1,0 +1,71 @@
+.wrapper {
+	font-family: Lora, serif;
+	color: #5a5a5a;
+	width: 90%;
+	margin: auto;
+}
+
+h1 { 
+	margin-top: 0; 
+}
+
+h2 {
+	color: #323232;
+}
+
+header {
+	font-family: Lora, serif;
+	color: #bfbfbf;
+	background-color: #323232;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.intro {
+	border-bottom: solid 4px #323232;
+	border-bottom-width: 50%;
+	margin-bottom: 3px;
+	text-align: center;
+	color: #bfbfbf;
+}
+
+.maincontent {
+	border-top: solid 2px #323232;
+}
+
+
+.contact form label,
+.contact form input,
+.contact form select {
+	display: block;
+	width: 90%;
+	border: none;
+}
+
+
+.contact form input, 
+.contact form select {
+	background-color: #e5e5e5;
+	border-radius: 5px;
+	height: 45px;
+}
+
+.contact form label {
+	margin: 20px 0 10px 0;
+	
+}
+
+[placeholder] {
+	text-align: right;
+	font-size: 0.9em;
+	font-weight: lighter;
+	font-style: italic;
+	padding-right: 20px;
+}
+
+:checked {
+	background: #000059;
+}
+
