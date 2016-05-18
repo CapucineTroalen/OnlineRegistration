@@ -43,7 +43,7 @@ header {
 .contact form input,
 .contact form select {
 	display: block;
-	width: 90%;
+	width: 100%;
 	border: none;
 	
 }
@@ -85,7 +85,7 @@ input[type="textarea"] {
 	border: 0
 }
 
-select:first-child {
+#placeholder {
 	font-size: 0.9em;
 	font-weight: lighter;
 	font-style: normal;
