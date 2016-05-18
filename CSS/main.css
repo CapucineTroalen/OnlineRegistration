@@ -1,12 +1,3 @@
-/* HELP HELP HELP
-
-Placeholder qui s’affiche mal - quoi faire ?
-Modifier l’affichage de « checked » sur les boutons radio et checkbox ? (couleur)
-Comment afficher correctement la dernière partie du formulaire (voir mockup mobile)
-
-*/
-
-
 .wrapper {
 	font-family: Lora, serif;
 	color: #5a5a5a;
@@ -76,5 +67,9 @@ header {
 
 :checked {
 	background: #000059;
+}
+
+input[type="submit"] {
+  background-color: rgba(154, 6, 139, 1)
 }
 
