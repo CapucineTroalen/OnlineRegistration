@@ -31,12 +31,11 @@ header {
 	color: #bfbfbf;
 }
 
-.maincontent {
-	border-top: solid 2px #323232;
-}
-
-.newsletter {
-	border-top: solid 2px #323232;
+.maincontent,
+.newsletter,
+.contact {
+	border-top: solid 2px #323232;	
+	margin: auto;
 }
 
 /* Form Boxes styling */ 
@@ -46,6 +45,7 @@ header {
 	display: block;
 	width: 90%;
 	border: none;
+	
 }
 
 
