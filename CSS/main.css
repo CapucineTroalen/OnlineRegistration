@@ -74,6 +74,14 @@ input[type="textarea"] {
 	background: #000059;
 }
 
+#inbox {
+	margin-top: 1000px;
+}
+
+#city {
+	margin-bottom: 10px;
+}
+
 input[type="textarea"] {
 	padding: 20px;
 	width: 90%;
@@ -101,4 +109,5 @@ footer {
 	text-align: center;
 	color: #bfbfbf;
 	font-style: italic;
+	width: 90%;
 }
