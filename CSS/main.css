@@ -74,14 +74,6 @@ input[type="textarea"] {
 	background: #000059;
 }
 
-#inbox {
-	margin-top: 1000px;
-}
-
-#city {
-	margin-bottom: 10px;
-}
-
 input[type="textarea"] {
 	padding: 20px;
 	width: 90%;
@@ -110,4 +102,25 @@ footer {
 	color: #bfbfbf;
 	font-style: italic;
 	width: 90%;
+}
+
+/* Media Queries */
+
+@media (min-width: 1024px) {
+	.contact form label,
+	.contact form input, 
+	.contact form select {
+		display: inline-block;
+	}
+	.contact form label {
+		width : 40%;
+	}
+	.contact form input, 
+	.contact form select
+		{
+			width: 40%;
+			margin: auto;
+		}
+	
+	 
 }
