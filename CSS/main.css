@@ -48,7 +48,6 @@ header {
 	
 }
 
-
 .contact form input, 
 .contact form select,
 input[type="textarea"] {
@@ -84,6 +83,12 @@ input[type="textarea"] {
 	width: 90%;
 	height: 100px;
 	border: 0
+}
+
+select:first-child {
+	font-size: 0.9em;
+	font-weight: lighter;
+	font-style: normal;
 }
 
 /* Submit Button styling */
