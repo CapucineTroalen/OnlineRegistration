@@ -46,7 +46,8 @@ header {
 
 
 .contact form input, 
-.contact form select {
+.contact form select,
+input[type="textarea"] {
 	background-color: #e5e5e5;
 	border-radius: 5px;
 	height: 45px;
@@ -69,7 +70,13 @@ header {
 	background: #000059;
 }
 
-input[type="submit"] {
-  background-color: rgba(154, 6, 139, 1)
+button {
+	font-family: Lora, serif;
+	color: #fff;
+	background-color: #16b89c;
+	text-transform: uppercase;
+	display: block;
+	margin: 10px 0 0 0;
+	border-radius: 5px
 }
 
