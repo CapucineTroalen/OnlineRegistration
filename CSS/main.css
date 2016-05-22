@@ -92,7 +92,7 @@ input[type="textarea"] {
 }
 
 /* Submit Button styling */
-button {
+input[type="submit"] {
 	font-family: Lora, serif;
 	color: #fff;
 	background-color: #16b89c;
@@ -100,7 +100,7 @@ button {
 	margin : auto;
 	margin: 10px 0 0 0;
 	border-radius: 5px;
-	width: 90%;
+	width: 100%;
 	padding: 7px 0;
 	border: 0
 }
