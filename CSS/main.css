@@ -31,11 +31,18 @@ header {
 	color: #bfbfbf;
 }
 
-.maincontent,
-.newsletter,
-.contact {
-	border-top: solid 2px #323232;	
+.maincontent {
+	border-top: solid 1px #323232;	
 	margin: auto;
+}
+
+.contact {
+	border-bottom: solid 1px #323232;	
+	margin: auto;
+}
+
+fieldset {
+	border: none;
 }
 
 /* Form Boxes styling */ 

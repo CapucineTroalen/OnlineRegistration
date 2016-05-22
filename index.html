@@ -20,20 +20,20 @@
 			<p> Get the latest news on how your code is doing right in your inbox </p>
 		</div>
 		<div class="maincontent">
-			<div class="contact">
-				<h2> Contact Information </h2>
+			<fieldset class="contact">
+				<legend> <h2> Contact Information </h2> </legend>
 				<form action="post">
 					<label> Full Name </label>
 					<input type="text" id="fullname" name="fullname" placeholder="Required"> <br>
-					<label> Email Address </label>
+					<label for="fullname"> Email Address </label>
 					<input type="email" id="email" name="email" placeholder="Required"> <br>
-					<label> Phone Number </label>
+					<label for="email"> Phone Number </label>
 					<input type="tel" id="phone" name="phone"> <br>
-					<label> Street Address </label>
+					<label for="phone"> Street Address </label>
 					<input type="text" id="street" name="street"> <br>
-					<label> City </label>
+					<label for="street"> City </label>
 					<input type="text" id="city" name="city"> <br>
-					<label> State </label>
+					<label for="city"> State </label>
 					<select placeholder="Choose State"> 
 						<option selected="selected" id="placeholder">Choose State</option>
 						<option value="state">
@@ -189,22 +189,22 @@
 					</select> <br>
 					<label> Zip Code </label>
 					<input type="text" id="zipcode" name="zipcode">
-			</div>
-			<div class="newsletter">
-				<h2> Newsletter </h2>
+			</fieldset>
+			<fieldset class="newsletter">
+				<legend> <h2> Newsletter </h2> </legend>
 				<p> Select the newsletters you would like to receive </p>
 					<input type="checkbox" id="htmlN" name="htmlN">
 					<label for="htmlN"> HTML News </label> <br>
 					<input type="checkbox" id="CSSN" name="CSSN">
-					<label for="htmlN"> CSS News </label> <br>
+					<label for="CSSN"> CSS News </label> <br>
 					<input type="checkbox" id="JSN" name="JSN">
-					<label for="htmlN"> Javascript News </label> <br>
+					<label for="JSN"> Javascript News </label> <br>
 					
 				<p> Newsletter Format </p>
 					<input type="radio" id="htmlF" name="format">
-					<label for="format"> HTML  </label> <br>
+					<label for="htmlF"> HTML  </label> <br>
 					<input type="radio" id="plain" name="format">
-					<label for="format"> Plain text </label> <br>
+					<label for="plain"> Plain text </label> <br>
 					
 				<p> Other topics you'd like to hear about </p>
 					<input type="textarea">
@@ -212,7 +212,7 @@
 					  <input type="submit" value="Sign Up">
 				</h2>
 				</form>
-			</div>
+			</fieldset>
 		<footer>
 				<p>Copyright The Code Review </p>
 		</footer>
