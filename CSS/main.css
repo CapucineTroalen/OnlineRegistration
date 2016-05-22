@@ -1,3 +1,5 @@
+/* General Styling : Wrapper, Titles */
+
 .wrapper {
 	font-family: Lora, serif;
 	color: #5a5a5a;
@@ -15,6 +17,7 @@ h2 {
 	font-size: 1.5em;
 	font-weight: bold;
 }
+/* Top of the Page Styling */
 
 header {
 	font-family: Lora, serif;
@@ -33,6 +36,7 @@ header {
 	text-align: center;
 	color: #bfbfbf;
 }
+/* Form Styling */
 
 .maincontent {
 	border-top: solid 1px #323232;	
@@ -106,6 +110,7 @@ fieldset {
 }
 
 /* Submit Button styling */
+
 input[type="submit"] {
 	font-family: Lora, serif;
 	color: #fff;
@@ -114,8 +119,8 @@ input[type="submit"] {
 	margin : auto;
 	margin: 10px 0 0 0;
 	border-radius: 5px;
-	width: 100%;
-	padding: 7px 0;
+	width: 97%;
+	padding: 7px 0 7px 12px;
 	border: 0
 }
 
@@ -130,7 +135,7 @@ footer {
 
 /* Media Queries */
 
-@media (min-width: 760px) {
+@media (min-width: 790px) {
 	.wrapper {
 		width: 80%;
 	}
@@ -148,13 +153,13 @@ footer {
 	}
 	
 	.contact label {
-		width : 15%;
+		width : 16%;
 	}
 	
 	.contact input, 
 	.contact select
 		{
-			width: 84%;
+			width: 83%;
 			margin: auto;
 		}
 		
