@@ -20,9 +20,9 @@
 			<p> Get the latest news on how your code is doing right in your inbox </p>
 		</div>
 		<div class="maincontent">
+			<form action="#" method="POST">
 			<fieldset class="contact">
 				<legend class="titleh2"> Contact Information </legend>
-				<form action="post">
 					<label for= "fullname"> Full Name </label>
 					<input type="text" id="fullname" name="fullname" placeholder="Required"> <br>
 					<label for="email"> Email Address </label>
@@ -36,158 +36,158 @@
 					<label for="state"> State </label>
 					<select id="state"> 
 						<option selected="selected" id="placeholder">Choose State</option>
-						<option value="state">
+						<option value="Alb">
 							Alabama
 						</option>
-						<option value="state">
+						<option value="Alk">
 							Alaska
 						</option>
-						<option value="state">
+						<option value="Arz">
 							Arizona
 						</option>
-						<option value="state">
+						<option value="Ark">
 							Arkansas
 						</option>
-						<option value="state">
+						<option value="Cal">
 							California
 						</option>	
-						<option value="state">
+						<option value="Col">
 							Colorado
 						</option>	
-						<option value="state">
+						<option value="Con">
 							Conneticut
 						</option>	
-						<option value="state">
+						<option value="Del">
 							Delaware
 						</option>	
-						<option value="state">
+						<option value="Flo">
 							Florida
 						</option>	
-						<option value="state">
+						<option value="Geo">
 							Georgia
 						</option>	
-						<option value="state">
+						<option value="Haw">
 							Hawaii
 						</option>	
-						<option value="state">
+						<option value="Ida">
 							Idaho
 						</option>	
-						<option value="state">
+						<option value="Ill">
 							Illinois
 						</option>	
-						<option value="state">
+						<option value="Ind">
 							Indiana
 						</option>	
-						<option value="state">
+						<option value="Iow">
 							Iowa
 						</option>	
-						<option value="state">
+						<option value="Kan">
 							Kansas
 						</option>	
-						<option value="state">
+						<option value="Kent">
 							Kentucky
 						</option>	
-						<option value="state">
+						<option value="Loui">
 							Louisiana
 						</option>	
-						<option value="state">
+						<option value="Mai">
 							Maine
 						</option>	
-						<option value="state">
+						<option value="Mary">
 							Maryland
 						</option>	
-						<option value="state">
+						<option value="Mass">
 							Massachusetts
 						</option>	
-						<option value="state">
+						<option value="Mich">
 							Michigan
 						</option>	
-						<option value="state">
+						<option value="Minn">
 							Minnesota
 						</option>	
-						<option value="state">
+						<option value="Miss">
 							Mississippi
 						</option>	
-						<option value="state">
+						<option value="Missr">
 							Missouri
 						</option>	
-						<option value="state">
+						<option value="Mont">
 							Montana
 						</option>	
-						<option value="state">
+						<option value="Neb">
 							Nebraska
 						</option>	
-						<option value="state">
+						<option value="Nev">
 							Nevada
 						</option>	
-						<option value="state">
+						<option value="Nhamp">
 							New Hampshire
 						</option>	
-						<option value="state">
+						<option value="Njer">
 							New Jersey
 						</option>	
-						<option value="state">
+						<option value="Nmex">
 							New Mexico
 						</option>	
-						<option value="state">
+						<option value="NY">
 							New York
 						</option>	
-						<option value="state">
+						<option value="Ncal">
 							North Carolina
 						</option>	
-						<option value="state">
+						<option value="Ndak">
 							North Dakota
 						</option>	
-						<option value="state">
+						<option value="Ohio">
 							Ohio
 						</option>	
-						<option value="state">
+						<option value="oklm">
 							Oklahoma
 						</option>	
-						<option value="state">
+						<option value="Ore">
 							Oregon
 						</option>	
-						<option value="state">
+						<option value="Penn">
 							Pennsylvania
 						</option>	
-						<option value="state">
+						<option value="Ris">
 							Rhode Island
 						</option>	
-						<option value="state">
+						<option value="Scal">
 							South Carolina
 						</option>	
-						<option value="state">
+						<option value="Sdak">
 							South Dakota
 						</option>	
-						<option value="state">
+						<option value="Tenn">
 							Tennessee
 						</option>	
-						<option value="state">
+						<option value="Tex">
 							Texas
 						</option>	
-						<option value="state">
+						<option value="Utah">
 							Utah
 						</option>	
-						<option value="state">
+						<option value="Ver">
 							Vermont
 						</option>	
-						<option value="state">
+						<option value="Vir">
 							Virginia
 						</option>	
-						<option value="state">
+						<option value="Wash">
 							Washington
 						</option>	
-						<option value="state">
+						<option value="Wvir">
 							West Virginia
 						</option>	
-						<option value="state">
+						<option value="Wisc">
 							Wisconsin
 						</option>	
-						<option value="state">
+						<option value="Wyo">
 							Wyoming
 						</option>	
 					</select> <br>
-					<label> Zip Code </label>
+					<label for="zipcode"> Zip Code </label>
 					<input type="text" id="zipcode" name="zipcode">
 			</fieldset>
 			<fieldset class="newsletter">
@@ -205,9 +205,8 @@
 					<label for="htmlF"> HTML  </label> <br>
 					<input type="radio" id="plain" name="format">
 					<label for="plain"> Plain text </label> <br>
-					
-				<p> Other topics you'd like to hear about </p>
-					<input type="textarea">
+					<label for="othertopics"> Other topics you'd like to hear about </label> <br>
+					<textarea id="othertopics"></textarea>
 					<input type="submit" value="Sign Up" class="titleh2">
 				</form>
 			</fieldset>
