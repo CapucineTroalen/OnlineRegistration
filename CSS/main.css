@@ -135,7 +135,7 @@ footer {
 
 /* Media Queries */
 
-@media (min-width: 790px) {
+@media (min-width: 760px) {
 	.wrapper {
 		width: 80%;
 	}
